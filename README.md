@@ -3,11 +3,11 @@
 
 Este es la solución a la prueba tecnica enviada por ALTEN, donde se requiere identificar lecturas que sean más altas o más bajas que la mediana anual ± 50 % de los clientes que se encuentran inicialmente en un archivo .csv o .xml, pero puede luego tomarse de una base de datos o cualquier metodo de entrada.
 
-OJO : Deben ejecutarse las dos app para que funcione: api-hola y app-hola-luz
+OJO : Deben ejecutarse las dos app para que funcione: api-hola y app-hola-luz, el codigo de ambos proyectos se encuentran en la rama `develop`.
 
 ## Authors
 
-- [@jackelineortega](https://www.github.com/jackelineortegs)
+- [@jackelineortega](https://www.github.com/jackelineortega)
 
 
 ## API Reference
@@ -16,23 +16,10 @@ OJO : Deben ejecutarse las dos app para que funcione: api-hola y app-hola-luz
 
 
 ```bash
-  cd app-hola-luz
+  cd alten-api
   npm install 
 ```
-## Deployment
 
-To deploy this project run
-
-```bash
-  npm run build
-  npm run start 
-```
-
-To deploy this project run dev
-
-```bash
-  npm run dev 
-```
 
 ## Environment Variables
 
@@ -50,6 +37,23 @@ Para correr el proyecto, necesitamos las sigueinte variables de entorno en el ar
 `CONSOLE_LEVEL= DEBUG`
 `PROVIDER_API= URL API Provider ** Optional ** `
 `PRIVIDER_STRATEGY= API ** If PROVIDER_API is set then the value is API else is not required ** `
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run build
+  npm run start 
+```
+
+To deploy this project run dev
+
+```bash
+  npm run dev 
+```
+
 ## Appendix
 
 Descripción de la solución: 
